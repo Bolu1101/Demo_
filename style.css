@@ -112,3 +112,51 @@ footer{
 .services-section h2{
     margin-bottom: 20px;
 }
+
+@media (max-width:768px){
+    .nav-links li{
+        margin: 0 10px;
+    }
+
+    .hero-text h1{
+        font-size: 1.2rem;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .hero-text p{
+        margin-top: 10px;
+        font-size: 0.8rem;
+        border-radius: 4px;
+    }
+
+    .about-section{
+        text-align: left;
+    }
+
+    .about-section h2{
+        font-size: 1rem;
+    }
+
+    .about-section p{
+        font-size: 0.8rem;
+    }
+    .Contact-section{
+        text-align: left;
+    }
+    .Contact-section h2{
+        font-size: 1rem;
+    }
+
+    .Contact-section p{
+        font-size: 0.8rem;
+    }
+    .form input, form textarea, form button{
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    footer{
+        font-size: 0.6rem;
+    }
+}
